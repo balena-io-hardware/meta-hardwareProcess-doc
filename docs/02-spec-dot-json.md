@@ -1,4 +1,4 @@
-# Writing the `spec.json`
+# Writing the spec.json
 
 The `spec.json` is the designers way of communicating with balena CI, and the manufacturing lab. This has
 - all the necessary information that's missing from the design files
