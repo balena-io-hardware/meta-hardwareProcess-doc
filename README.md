@@ -23,7 +23,7 @@ release: github
 
 ## Documentation
 
-Depending on what kind of project you have (it could be a PCB or a 3D design like a case), you can customize the instructions that are sent to the prototyping lab from your repo. For example, if you want to ensure that the case is printed in ABS instead of the default PLA, you can specify this in the `spec.json` file. Read more about this in our [docs]().
+Depending on what kind of project you have (it could be a PCB or a 3D design like a case), you can customize the instructions that are sent to the prototyping lab from your repo. For example, if you want to ensure that the case is printed in ABS instead of the default PLA, you can specify this in the `spec.json` file. Read more about this in our [docs](./docs).
 
 ## Getting Help
 
