@@ -28,5 +28,5 @@ If it's a small change, or if you can't wait for a review, you can merge the cha
 
 ### Prototyping Lab review
 - The Prototyping Lab review is visible as part of the GitHub checks on your PR. This is a list of tests that any PR has to pass before being allowed to merge. The 3 possible states are `Waiting` (yellow dot), `Failed` (red cross), `Pass` (green tick).
-- When you create a new PR, the files required for manufacturing are packaged and emailed to the prototyping lab. You can find the front inbox `Manufacturing Lab` and see all the current work being done by the lab.
+- When you create a new PR, the files required for manufacturing are packaged and emailed to the prototyping lab. You can find the front inbox [Manufacturing Lab](https://app.frontapp.com/inboxes/teams/folders/1673219/) and see all the current work being done by the lab.
 - When the lab finishes manufacturing and testing the new change, it will send an email back - which will get reflected in the GitHub checks with the additional logs and details provided by the Prototyping Lab.
