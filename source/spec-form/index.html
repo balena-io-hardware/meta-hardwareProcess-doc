@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>HW Process</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section class="contact-form">
+  <h1>Generate a spec.json</h1>
+  <p>Use this handy contact form to generate a <code>spec.json</code> to put in your PR -</p>
+
+  <form>
+    <div class="input-group">
+      <label for="name">Project Name</label>
+      <input id="name" name="name" type="text"/>
+    </div>
+
+    <div class="input-group">
+      <input id="type-pcb" name="hwType" type="radio" value="pcb"/>
+      <label class="inline" for="type-pcb">PCB</label>
+
+      <input id="type-3d" name="hwType" type="radio" value="3d"/>
+      <label class="inline" for="type-3d">3D</label>
+    </div>
+
+    <div class="input-group">
+      <label for="description">Description</label>
+      <textarea id="description" name="description" rows="6" cols="65"></textarea>
+    </div>
+    <button type="submit">Generate spec!</button>
+  </form>
+</section>
+
+<div class="results">
+  <h2>Form Data</h2>
+  <pre></pre>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.13.0/polyfill.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
