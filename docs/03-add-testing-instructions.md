@@ -1,11 +1,10 @@
 # Add testing instructions
 
-In the top level directory, there should be a subdirectory called `testing`. In this folder, please add a file titled `Testing.md`.
+In the top level directory, there should be a subdirectory called `testing`. In this folder, please add your testing instructions - preferably in markdown format.
 
-The purpose of `Testing.md` is to help the prototpying lab conduct a functional test.
+If you have no files in this folder, or if the folder is missing - you will not be able to merge your changes.
 
-
-Here are some examples -
+Here are some examples of how you can write down tests -
 
 ```
 ## Test 1
