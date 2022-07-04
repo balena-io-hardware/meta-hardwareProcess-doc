@@ -1,42 +1,50 @@
 # Creating Product Repos
 
-When creating new resources, such as repos, directories or manuals, repo names should follow a standard schema.
+When creating new product repos (on GitHub), repo names should follow a standard schema.
 
 ## Schema
 
 When naming product repos you should:
 
 1. Only use lower case
-2. Separate with a hyphen (-), e.g `etcherpro-case`
+2. Separate with a hyphen (-), e.g `etcherpro-enclosure-3d`, (see examples diagram)
 3. Do not use spaces
 4. Do not use special characters (e.g. `_`,`$`,`@`)
 
 ```mermaid
 flowchart LR
 
-    subgraph Schema 
+    subgraph Repo Name Schema 
         direction LR
         Parent --- A["Child<br\> (if applicable)"] --- Type
     end
 ```
 
-Types are loosely enforced, understanding that it is very difficult to predict all of the different types of repos.
+Types or product types, are loosely enforced, with the understanding that it is very difficult to predict all of the different (and future) types of repo.
 Some suggested types are:
 
 - Printed Circuit Board - `pcb`
 - Software - `sw`
-- Case - `case`
-- Heat sink - `mech`
+- Case - `3d` (where the child specifies that it is an enclosure)
 
 ## Examples
 
 ```mermaid
 flowchart LR
 
-    subgraph Examples
+    subgraph Examples Repo Names
         direction LR
-    a[autokit] --- b[sdmux] --- c[sw]
-    d[etcherpro] --- e[cardreader] --- f[pcb]
-    g[balenafin] ---- h[case]
+        subgraph autokit-sdmux-sw
+        direction LR
+            a[autokit] --- b[sdmux] --- c[sw]
+        end
+        subgraph etcherpro-cardreader-pcb
+        direction LR
+            d[etcherpro] --- e[cardreader] --- f[pcb]
+        end
+        subgraph balenafin-enclosure-3d
+        direction LR
+            g[balenafin] --- h[enclosure] --- i[3d]
+        end
     end
 ```
