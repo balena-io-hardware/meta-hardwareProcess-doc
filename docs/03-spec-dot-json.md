@@ -1,6 +1,7 @@
 # Writing the spec.json
 
 The `spec.json` is the designers way of communicating with balena CI, and the manufacturing lab. This has
+
 - all the necessary information that's missing from the design files
 - meta information about the design
 
@@ -50,4 +51,4 @@ Here's a sample `spec.json` for your 3D projects
 }
 ```
 
-Once you have populated the `spec.json`, use https://jsonlint.com/ to check if your file is formatted correctly.
+Once you have populated the `spec.json`, use <https://jsonlint.com/> to check if your file is formatted correctly.
