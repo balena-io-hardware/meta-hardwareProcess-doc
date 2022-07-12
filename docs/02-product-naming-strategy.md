@@ -6,17 +6,23 @@ When creating new product repos (on GitHub), repo names should follow a standard
 
 When naming product repos you should:
 
-1. Only use lower case
-2. Separate with a hyphen (-), e.g `etcherpro-enclosure-3d`, (see examples diagram)
+1. Use lower case where possible, when multiple words are required use camel case, e.g. `fin-flashingJig-3d`
+2. Separate with a hyphen (-), e.g. `etcherPro-enclosure-3d`, (see examples diagram)
 3. Do not use spaces
 4. Do not use special characters (e.g. `_`,`$`,`@`)
+5. The top-most parent should be the product name, e.g. `fin`; however it should not contain any source material of its own, only point to children repos. There should only be one top-most parent.
 
 ```mermaid
 flowchart LR
 
-    subgraph Repo Name Schema 
+    subgraph Child Repo Schema
         direction LR
-        Parent --- A["Child<br\> (if applicable)"] --- Type
+        parent --- B["child<br\> (if applicable)"] --- type
+    end
+
+    subgraph Parent Repo Schema
+        direction LR
+        F[parent]
     end
 ```
 
@@ -27,24 +33,29 @@ Some suggested types are:
 - Software - `sw`
 - Case - `3d` (where the child specifies that it is an enclosure)
 
+### Creating a new product
+
+When creating a new product, the product builder should start with a top-most parent repo and use this to organise the children repos.
+It is encouraged to use the README.md of this parent repo to reflect the product's saga and be used to explain the what, why and how this product is constructed.
+
 ## Examples
 
 ```mermaid
 flowchart LR
 
-    subgraph Examples Repo Names
+    subgraph Examples Child Repos
         direction LR
         subgraph autokit-sdmux-sw
         direction LR
             a[autokit] --- b[sdmux] --- c[sw]
         end
-        subgraph etcherpro-cardreader-pcb
+        subgraph etcherPro-cardReader-pcb
         direction LR
-            d[etcherpro] --- e[cardreader] --- f[pcb]
+            d[etcherPro] --- e[cardReader] --- f[pcb]
         end
-        subgraph balenafin-enclosure-3d
+        subgraph fin-enclosure-3d
         direction LR
-            g[balenafin] --- h[enclosure] --- i[3d]
+            g[fin] --- h[enclosure] --- i[3d]
         end
     end
 ```
