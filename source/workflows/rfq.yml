@@ -1,0 +1,11 @@
+name: RFQ GitHub Action
+on:
+  commit:
+
+jobs:
+  action:
+    runson: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: rfq-workflow
+        uses: ./source/actions/rfq-action
