@@ -2,7 +2,6 @@
 
 It is important to version your changes and we have a standard way of doing that across all your projects.
 
-
 ## Change type in commit messages
 
 Whenever we open a new pull request on GitHub, we add one or more commits to it.
@@ -26,8 +25,19 @@ For example if we find an issue with the Fin 1.1 USB circuitry, and we fix it in
 You can [read more](https://semver.org/) about this style of versioning - known as semantic versioning.
 This is also what we use for all kinds of software at Balena.
 
+### Examples
 
-## Version on silkscreens
+[Marek Koza](https://qyx.krtko.org/conceptual/hardware-semantic-versioning.html#adopting-the-semver-2-0-0-standard-for-hardware) has written some good examples of the above types of changes for the hardware.
+
+Another example of how to do semver for firmware is elaborated in [this post by memfault](https://interrupt.memfault.com/blog/release-versioning#semantic-versioning).
+
+
+## Considerations when prototyping
+
+The following section deals with specifics of different types of projects when you are working on it in a pull request.
+The final versioning of your changes will happen when it gets merged into master, but till then you will still be assigned a working version number, and some more meta data.
+
+### PCB
 
 When you create a new pull request or a project, especially a PCB one, you should put the version information on the silkscreen.
 This will help the users of the particular PCB project identify what board they have - useful for reading documentation or getting support.
@@ -51,3 +61,18 @@ When the changes get merged into the master branch and a final release is create
 
 ![Settings](./images/version.png)
 ![PCB](./images/version_pcb.png)
+
+### Other projects
+
+For other projects that don't have the option of putting the version information as part of the design - we will use stickers.
+
+![sticker](./images/sticker.png)
+
+## Further reading
+
+- Semver is a project in itself. We can create issues on their project repo in case we want additional clarifications.
+For example, see [this thread where folks are discussing how to version software that depends on hardware](https://github.com/semver/semver/issues/707)
+- Some other folks have [created forks of semver](https://files.ettus.com/manual/page_semver.html) to help with versioning hardware drivers and such. We could decide to do something like this. 
+When doing this we should ensure that the cost of creating and maintaining a fork is less than the cost of living with whatever shortcomings we find with semver for hardware.
+- One can optionally do prerelease tags with semver as well.
+This is elaborated in [this post from memfault](https://interrupt.memfault.com/blog/release-versioning#pre-release-tag-best-practices)
