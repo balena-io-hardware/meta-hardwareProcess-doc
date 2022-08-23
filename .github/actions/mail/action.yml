@@ -1,0 +1,5 @@
+name: "mail action"
+description: "Sends an email with a link to a release"
+runs:
+  using: "node16"
+  main: "index.js"
