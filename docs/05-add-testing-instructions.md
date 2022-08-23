@@ -1,13 +1,12 @@
 # Add testing instructions
 
-In the top level directory, there should be a subdirectory called `testing`. In this folder, please add a file titled `Testing.md`.
+In the top level directory, there should be a subdirectory called `testing`. In this folder, please add your testing instructions - preferably in markdown format.
 
-The purpose of `Testing.md` is to help the prototpying lab conduct a functional test.
+If you have no files in this folder, or if the folder is missing - you will not be able to merge your changes.
 
+Here are some examples of how you can write down tests -
 
-Here are some examples -
-
-```
+```markdown
 ## Test 1
 Power on the board using USB
 - Success
@@ -15,12 +14,11 @@ Power on the board using USB
   - LED turns red and then turns green
 - Failure
   - LED keeps on blinking red
-
 ```
 
 or for a 3D type of project, it could be something as simple as a fit test
 
-```
+```markdown
 ## Test 1
 Print the case, and ensure that a balenaFin (version 1/1.1/1.1.1) mounts correctly inside the case.
 
@@ -28,5 +26,4 @@ Print the case, and ensure that a balenaFin (version 1/1.1/1.1.1) mounts correct
   - All holes are mounted correctly
 - Failure
   - Any of the mounting holes are misalligned
-
 ```
