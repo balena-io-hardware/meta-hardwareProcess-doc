@@ -1,5 +1,9 @@
 name: "rfq action"
 description: "Creates a RFQ archive of a hardware repo from source"
+inputs:
+  milliseconds:
+    required: true
+    deafult: 5
 runs:
   using: "node16"
-  main: "index.js"
+  main: "dist/index.js"
