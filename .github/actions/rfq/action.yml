@@ -3,7 +3,7 @@ description: "Creates a RFQ archive of a hardware repo from source"
 inputs:
   milliseconds:
     required: true
-    deafult: 5
+    default: 5
 runs:
   using: "node16"
   main: "dist/index.js"
