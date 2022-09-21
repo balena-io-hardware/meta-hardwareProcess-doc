@@ -13,7 +13,7 @@ jobs:
         run: |
           npm i npm-check-updates gatsby -global
           npx gatsby new site https://github.com/hasura/gatsby-gitbook-starter
-          cp docs/* site/content/
+          cp -r docs/* site/content/
           cd site
           npx ncu -u -t patch
           npm install
