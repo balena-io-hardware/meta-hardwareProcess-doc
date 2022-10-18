@@ -15,7 +15,10 @@ jobs:
           npx gatsby new site https://github.com/hasura/gatsby-gitbook-starter
           rm -rf site/content/*
           cp -r docs/* site/content/
-          cp README.md site/content/index.md
+          # Need to fix this - either remove graphql or add meta tags automatically to pages
+          cat '---\ntitle: "Repo name"\nmetaTitle: "This is the title tag of this page"\nmetaDescription: "This is the meta description"\n---' >> site/content/index.md
+          cat README.md site/content/index.md
+          cat site/content/index.md
           cd site
           npx ncu -u -t patch
           npm install
