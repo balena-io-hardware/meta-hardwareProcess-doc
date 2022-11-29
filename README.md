@@ -14,4 +14,4 @@ Depending on what kind of project you have (it could be a PCB or a 3D design lik
 
 ## Getting Help
 
-If you're having any problem, please [raise an issue](https://github.com/balena-io-hardware/hardware-process/issues/new) on GitHub and we will be happy to help.
+If you're having any problem, please [raise an issue](https://github.com/balena-io-hardware/meta-hardwareProcess-doc/issues/new) on GitHub and we will be happy to help.
