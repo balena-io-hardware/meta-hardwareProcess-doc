@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update README.md
+      hash: fd4dd84b8acc223679e2754f58cee95a1321d757
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anuj Deshpande
+      nested: []
+  version: 1.2.4
+  title: ""
+  date: 2022-11-29T14:37:42.241Z
+- commits:
     - subject: Remove branch protection
       hash: cf258e5d9423dcd0fde501e44946d02ebdfb3d17
       body: ""
