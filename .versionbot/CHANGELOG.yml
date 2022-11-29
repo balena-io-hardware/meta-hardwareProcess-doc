@@ -1,0 +1,509 @@
+- commits:
+    - subject: Use cloudflare pages for static site building
+      hash: 7efd4ad3d710d215b9f882bbd3d99bfd5d50a0a6
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anuj Deshpande
+      nested: []
+  version: 1.2.2
+  title: ""
+  date: 2022-11-29T08:45:44.872Z
+- version: 1.2.1
+  date: 2022-08-31T11:50:53Z
+  commits:
+    - hash: a2b9dd62e10a1b0f4c154080c181f3a11febef39
+      author: Anuj Deshpande
+      footers:
+        change-type: patch
+      subject: Add a contributing guide with steps on installation
+      body: null
+    - hash: 446e9dba257d8dc73acacd23ba0ec02396442f93
+      author: Anuj Deshpande
+      subject: Merge branch 'master' into add-contributing-guide
+      body: null
+- version: 1.2.0
+- date: 2022-08-26T08:42:26Z
+- commits:
+    - hash: 668f7c6beb199a0e75650ef52c6ab8a5b0eead91
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - footers:
+        change-type: minor
+- commits:
+    - subject: Remove commited node-modules
+- commits:
+    - body: null
+- commits:
+    - hash: fe1221509cbd0fc3fa0da1f28823678b864a7f21
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - subject: Merge branch 'master' into remove-node-modules
+- commits:
+    - body: null
+- version: 1.1.2
+- date: 2022-08-26T08:21:15Z
+- commits:
+    - hash: ba0f38c8c6bef73049a403a42e333edec1f2b26a
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Fix typo
+- commits:
+    - body: null
+- version: 1.1.1
+- date: 2022-08-26T07:42:53Z
+- commits:
+    - hash: 58012bf99c35d8aba45e3bfffe1cf22797a221dd
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - subject: Fix package.json to use typescript files
+- commits:
+    - body: null
+- commits:
+    - hash: d09ea5467cfb6cfa4872d60c96a96c9af94c2398
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - subject: Merge branch 'master' into fix-typescript
+- commits:
+    - body: null
+- commits:
+    - hash: 39235ac7d1e6ff21d7d0497527c32b7d7b16e249
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Add change type
+- commits:
+    - body: null
+- version: 1.1.0
+- date: 2022-08-26T07:19:35Z
+- commits:
+    - hash: c2d84e4e4868dce8dced46aa0a92edeb9f4ea6d1
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - footers:
+        change-type: minor
+- commits:
+    - subject: Use typescript instead of javascript
+- commits:
+    - body: null
+- commits:
+    - hash: ea97e3d4ae4a788b0ac7b6f232a239cf1c8894eb
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - subject: Merge branch 'master' into gh-action
+- commits:
+    - body: null
+- version: 1.0.0
+- date: 2022-08-23T12:51:49Z
+- commits:
+    - hash: 83f4e4007a4f846e3d0f9b30155336de908a980d
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - footers:
+        change-type: major
+- commits:
+    - subject: Add rfq package as an action
+- commits:
+    - body: null
+- commits:
+    - hash: 31b6bf0f9744ce71de21f57d954e0cc322266d82
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - footers:
+        change-type: minor
+- commits:
+    - subject: Add simple github action with 2 jobs that prints job name
+- commits:
+    - body: null
+- commits:
+    - hash: c456bd95374ea24bbcde1f86f2622a75560c561c
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - subject: Remove action from source folder
+- commits:
+    - body: null
+- commits:
+    - hash: 72c88e97087a44e41330b4e6f5e08da454634918
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - subject: Merge branch 'master' into gh-action
+- commits:
+    - body: null
+- version: 0.7.0
+- date: 2022-07-26T04:08:03Z
+- commits:
+    - hash: 3f96c818ed6f28de97fc9f8366af886b982b31df
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - footers:
+        change-type: minor
+- commits:
+    - subject: Add docs about how to create a BoM
+- commits:
+    - body: null
+- version: 0.6.0
+- date: 2022-07-12T11:15:58Z
+- commits:
+    - hash: 409d2365333f1e0244bc5141da04084ecdeb13c0
+- commits:
+    - author: Alex
+- commits:
+    - footers:
+        change-type: minor
+- commits:
+    - footers:
+        signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+- commits:
+    - subject: Adjusted naming schema for camelCase
+- commits:
+    - body: null
+- version: 0.5.1
+- date: 2022-07-07T04:35:44Z
+- commits:
+    - hash: 3da4675194a5f43855fd48ce10d62240a87255f5
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Anuj Deshpande <anuj@balena.io>
+- commits:
+    - subject: Add diagram for hw process overview
+- commits:
+    - body: null
+- version: 0.5.0
+- date: 2022-07-04T14:14:57Z
+- commits:
+    - hash: 983e88baa96bd23ef30f84a2c3723fe075dc3722
+- commits:
+    - author: Alex
+- commits:
+    - footers:
+        change-type: minor
+- commits:
+    - footers:
+        signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+- commits:
+    - subject: Added product naming strategy
+- commits:
+    - body: null
+- commits:
+    - hash: c02fa111b8b80a5f7ff3719883b78959c67d71a1
+- commits:
+    - author: Alex
+- commits:
+    - footers:
+        change-type: minor
+- commits:
+    - footers:
+        signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+- commits:
+    - subject: Added product naming strategy
+- commits:
+    - body: null
+- commits:
+    - hash: 321a87b3aa24088e7b284f0dd185195793c8cec8
+- commits:
+    - author: Alex
+- commits:
+    - subject: Merge branch 'add-naming-strategy' of
+        github.com:balena-io-hardware/hardware-process into add-naming-strategy
+- commits:
+    - body: null
+- commits:
+    - hash: 7f89a4ed2dfb0d27c5c865fcc2a8b449037f85a1
+- commits:
+    - author: Alex
+- commits:
+    - footers:
+        change-type: minor
+- commits:
+    - footers:
+        signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+- commits:
+    - subject: Fixes according to reviews
+- commits:
+    - body: null
+- commits:
+    - hash: 1c4009f7cbc4eb0bf8375e56eb6f4d8a8782d791
+- commits:
+    - author: Alex
+- commits:
+    - footers:
+        change-type: minor
+- commits:
+    - footers:
+        signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+- commits:
+    - subject: Reorders markdown files
+- commits:
+    - body: null
+- version: 0.4.3
+- date: 2022-07-01T09:10:47Z
+- commits:
+    - hash: e80df72daf0934f5f7d3499dce16959846e7ce0e
+- commits:
+    - author: AlidaOdendaal
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: AlidaOdendaal <alida@balena.io>
+- commits:
+    - subject: "docs/01-create-repo.md: Fix broken link to 02-spec-dot-json.md"
+- commits:
+    - body: null
+- version: 0.4.2
+- date: 2022-06-16T09:23:35Z
+- commits:
+    - hash: 9e0ec8e0e350eab24a9cb80d3218d0f69c760dc2
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Anuj Deshpande <anuj@balena.io>
+- commits:
+    - subject: We now accept files with any name in the testing folder
+- commits:
+    - body: null
+- version: 0.4.1
+- date: 2022-06-01T17:40:56Z
+- commits:
+    - hash: 0c4b2d4738a04b3f631f37384f334ce9d1348141
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Anuj Deshpande <anuj@balena.io>
+- commits:
+    - subject: Add lab capabilities
+- commits:
+    - body: null
+- commits:
+    - hash: e46d52a18920dd8f52c66d2fdf2c86a1496e07c5
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - subject: Merge branch 'master' into add-lab-capabilities
+- commits:
+    - body: null
+- version: 0.4.0
+- date: 2022-06-01T15:19:28Z
+- commits:
+    - hash: 2e6a7c42100bfbcee981af8b584f39582d7bfbe3
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - footers:
+        change-type: minor
+- commits:
+    - subject: Remove image from docs folder
+- commits:
+    - body: null
+- commits:
+    - hash: 9e4c927c1fd02a3dd0a75a2615b7c14f72b17ab8
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - subject: Merge branch 'master' into remove-image
+- commits:
+    - body: null
+- version: 0.3.6
+- date: 2022-03-17T08:17:21Z
+- commits:
+    - hash: 112a2d670025fa743fe029243b0db340d1367bc4
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Delete HardwareLoopProcesses.png
+- commits:
+    - body: null
+- version: 0.3.5
+- date: 2022-03-17T08:02:31Z
+- commits:
+    - hash: de37dbe78d5424edc701b5f4e01fb662653971b4
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Add png for processes diagram
+- commits:
+    - body: null
+- version: 0.3.4
+- date: 2022-03-16T16:25:06Z
+- commits:
+    - hash: 5cba74b976415ed0555cc1bfffcfc9f5ad315efd
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Add hardware process loops diagram
+- commits:
+    - body: null
+- version: 0.3.3
+- date: 2022-01-13T12:44:14Z
+- commits:
+    - hash: 2b10196d6c22fbc458613e9aab1e840a57aec8b0
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Anuj Deshpande <anuj@balena.io>
+- commits:
+    - subject: Add instructions on how to reply to the manufacturing lab email
+- commits:
+    - body: null
+- version: 0.3.2
+- date: 2022-01-13T11:24:29Z
+- commits:
+    - hash: 2c9948c70757299d7a83d25c1ba9b5ba2c1c2cab
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Anuj Deshpande <anuj@balena.io>
+- commits:
+    - subject: Add instructions to create a Testing.md file
+- commits:
+    - body: null
+- version: 0.3.1
+- date: 2021-10-19T03:49:52Z
+- commits:
+    - hash: b7079717c93ab92eb53e4bd7907e409f0181c030
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Anuj Deshpande <anuj@balena.io>
+- commits:
+    - subject: Add missing link to front
+- commits:
+    - body: null
+- version: 0.3.0
+- date: 2021-09-17T03:47:04Z
+- commits:
+    - hash: e0832965abccedb2233963f3992946ae0ba51ced
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - footers:
+        change-type: minor
+- commits:
+    - footers:
+        signed-off-by: Anuj Deshpande <anuj@balena.io>
+- commits:
+    - subject: Add instructions on how to get a change merged
+- commits:
+    - body: null
+- commits:
+    - hash: 2b496e0bbfd2b3db8f7703121915fc46db7e1032
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Anuj Deshpande <anuj@balena.io>
+- commits:
+    - subject: Fix broken link
+- commits:
+    - body: null
+- version: 0.2.0
+- date: 2021-09-16T11:19:16Z
+- commits:
+    - hash: eb57af6b284da0249e862ac56493e8fe67de5743
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - footers:
+        change-type: minor
+- commits:
+    - footers:
+        signed-off-by: Anuj Deshpande <anuj@balena.io>
+- commits:
+    - subject: Add instructions on how to populate spec.json
+- commits:
+    - body: null
+- commits:
+    - hash: 83e58e1e5467e15bbde6c3d62a3ce552a1616078
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Anuj Deshpande <anuj@balena.io>
+- commits:
+    - subject: Add instructions to create a repo using the template
+- commits:
+    - body: null
+- commits:
+    - hash: 47a06ea4d6f7f071e586188096840742b8da1506
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - subject: Add link to docs in top level readme
+- commits:
+    - body: null
+- version: 0.1.0
+- date: 2021-09-16T11:06:31Z
+- commits:
+    - hash: a3f1b95d4b7c8e6f24a3cea8ec8885781e5d0fcc
+- commits:
+    - author: Anuj Deshpande
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Anuj Deshpande <anuj@balena.io>
+- commits:
+    - subject: Add missing repo.yml
+- commits:
+    - body: null
