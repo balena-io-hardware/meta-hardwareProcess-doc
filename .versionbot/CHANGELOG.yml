@@ -1,4 +1,16 @@
 - commits:
+    - subject: Remove branch protection
+      hash: cf258e5d9423dcd0fde501e44946d02ebdfb3d17
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anuj Deshpande
+      nested: []
+  version: 1.2.3
+  title: ""
+  date: 2022-11-29T09:12:36.298Z
+- commits:
     - subject: Use cloudflare pages for static site building
       hash: 7efd4ad3d710d215b9f882bbd3d99bfd5d50a0a6
       body: ""
