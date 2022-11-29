@@ -1,4 +1,16 @@
 - commits:
+    - subject: Point to new repo name
+      hash: a05cfd22863ed5282ef26f74706e6f7c0b91d7ad
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anuj Deshpande
+      nested: []
+  version: 1.2.5
+  title: ""
+  date: 2022-11-29T20:40:22.058Z
+- commits:
     - subject: Update README.md
       hash: fd4dd84b8acc223679e2754f58cee95a1321d757
       body: ""
